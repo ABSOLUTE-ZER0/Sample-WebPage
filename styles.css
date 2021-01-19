@@ -1,0 +1,378 @@
+body{
+    font-family: "Montserrat";
+}
+
+
+/* NAV BAR */
+
+.container-fluid.Blue{
+    padding: 3% 10% !important;
+    background-color: rgb(91, 156, 255);
+}
+
+
+
+.navbar{
+    margin-bottom: 5em;
+    background-color: rgb(91, 156, 255);
+    align-content: center;
+
+}
+
+.nav-brand{
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Ubuntu";
+    font-size: 2.3em;
+    color: rgb(62, 0, 66);
+    padding-left: 1em;
+    width: 80%;
+}
+
+.nav-brand:hover{
+    text-decoration: none;
+}
+
+.DownloadApple{
+    margin: 4em;
+    margin-left: 15%;
+    margin-right: 0;
+    
+}
+
+.DownloadAndroid{
+    margin-left: 15%;
+}
+
+
+
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    font-family: "Montserrat-light";
+    font-size: 1.1em;
+    padding-top: 5em;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+
+}
+ 
+
+.AppDesc{
+    font-family: "Montserrat";
+    color: rgb(228, 0, 106);
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding-left: 5%;
+    padding-top: 20%;
+}
+
+
+.AppImg{
+    padding-left: 10%!important;
+    transform: rotate(15deg);
+    position: absolute !important;
+}
+ 
+/* FEATURES */
+
+#features{
+    padding: 14%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box>h3{
+    font-family: "Montserrat-Bold";
+    font-weight: 900;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    color: rgb(255, 70, 70);
+}
+
+.feature-box>p{
+    font-weight: 500;
+}
+ 
+
+.icon{
+    color: rgba(255, 72, 157, 0.856);
+}
+
+.icon:hover{
+    color: rgb(228, 0, 106);
+}
+
+
+
+/* Testimonials */
+
+
+#testimonials{
+
+    background-color: rgb(129 255 165);
+    font-weight: 600;
+    font-family: "Montserrat-Bold";
+    color: rgb(0, 0, 0);
+}
+
+.testimonials{
+    padding-top: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 7%;
+    text-align: center;
+
+}
+
+
+.testimonials>h2{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.testimonials>img{
+    max-width: 15% !important;
+    border-radius: 100%;
+    margin-bottom: 3em;
+}
+
+
+#press{
+    padding-top: 7%;
+    padding-bottom: 4%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.press-img{
+    max-width: 18% !important;
+    padding: 3%;
+
+}
+
+
+/* PLANS */
+
+#pricing{
+    padding-top: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 7%;
+    text-align: center;
+}
+
+#pricing>p{
+    font-size: 2em;
+    font-family: "Montserrat-Bold";
+    padding-bottom: 4%;
+
+}
+
+.card-body>button{
+    margin-top: 0.5em !important;
+}
+
+/* DownloadReminder */
+
+#DownloadReminder{
+    padding: 3% 10% !important;
+    background-color: rgb(91, 156, 255);
+    text-align: center;
+    font-family: "Ubuntu";
+}
+
+.Download{
+    margin: 3% !important;
+    margin-bottom: 0!important;
+}
+
+/* footer */
+
+#footer{
+    padding: 1% !important;
+    padding-bottom: 0 !important;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.507);
+}
+
+
+/* contact HTML */
+
+.contact{
+    background-color:aliceblue !important;
+}
+
+.main-content{
+    text-align: center !important ;
+}
+
+
+.form-group>input{
+    width: 50%;
+}
+
+.form-group>textarea{
+    width: 50%;
+}
+
+.groupCallUs{
+    margin-top: 5% !important;
+}
+
+
+
+/* mobile */
+
+
+@media (min-width: 1300px) and (max-width: 1800px){
+
+    .AppImg{
+        margin-left: 10%!important;
+        transform: rotate(15deg);
+        position: absolute !important;
+        max-width: 60% !important;
+    }
+    .AppDesc{
+        font-family: "Montserrat";
+        color: rgb(228, 0, 106);
+        font-size: 3rem;
+        font-weight: 600;
+        padding-left: 5%;
+        padding-top: 20%;
+        text-align: center;
+    }
+    
+
+}
+
+@media (min-width: 1113px) and (max-width: 1300px){
+
+    .AppImg{
+        margin-left: 10%!important;
+        transform: rotate(15deg);
+        position: absolute !important;
+        max-width: 70% !important;
+    }
+    .AppDesc{
+        font-family: "Montserrat";
+        color: rgb(228, 0, 106);
+        font-size: 3rem;
+        font-weight: 600;
+        padding-left: 5%;
+        padding-top: 20%;
+        text-align: center;
+    }
+    
+
+}
+
+
+@media (min-width: 995px) and (max-width: 1113px){
+
+    .AppImg{
+        padding-left: 15%!important;
+        transform: rotate(15deg);
+        position: absolute !important;
+        max-width: 65% !important;
+    }
+
+    .AppDesc{
+        font-family: "Montserrat";
+        color: rgb(228, 0, 106);
+        font-size: 3rem;
+        font-weight: 600;
+        padding-left: 5%;
+        padding-top: 20%;
+        text-align: center;
+    }
+    
+
+    .DownloadApple{
+        margin: 0;
+        margin-top: 8%;
+        margin-left: 10%;   
+        margin-bottom: 4%;     
+    }
+    
+    .DownloadAndroid{
+        margin-top: 8%;
+        margin-left: 10%;
+        margin-bottom: 4%;     
+
+    }
+
+}
+
+
+@media (max-width: 994px){
+
+
+    .navbar{
+        margin-bottom: 5em;
+        background-color: rgb(91, 156, 255);
+        align-content: center;
+        margin-top: 1.5em;
+    }
+    
+    .nav-brand{
+        font-weight: bold;
+        text-decoration: none;
+        font-family: "Ubuntu";
+        font-size: 3em;
+        color: rgb(62, 0, 66);
+        padding-left: 1em;
+        width: 80%;
+    }
+
+
+
+    .AppImg{
+        padding-left: 0%!important;
+        padding-top: 2em !important;
+        transform: rotate(0deg);
+        position: static !important;
+        max-width: none;
+        align-self: center;
+    }
+
+    .AppDesc{
+        font-family: "Montserrat";
+        color: rgb(228, 0, 106);
+        font-size: 3.5rem;
+        font-weight: 700;
+        padding-left: 5%;
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    .AppDescDiv{
+        text-align: center;
+    }
+
+    .AppImgCont{
+        text-align: center;
+    }
+
+
+    .DownloadApple{
+        margin: 0;
+        margin-top: 8%;
+        margin-bottom: 4%;     
+    }
+    
+    .DownloadAndroid{
+        margin-left: 4%;
+        margin-top: 8%;
+        margin-bottom: 4%;     
+
+    }
+    .feature-box>p{
+        padding-bottom: 4em;
+    }
+
+}
