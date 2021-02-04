@@ -276,7 +276,7 @@ body{
 @media (min-width: 995px) and (max-width: 1113px){
 
     .AppImg{
-        padding-left: 15%!important;
+        margin-left: 15%!important;
         transform: rotate(15deg);
         position: absolute !important;
         max-width: 65% !important;
