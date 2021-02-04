@@ -68,9 +68,10 @@ body{
 
 
 .AppImg{
-    padding-left: 10%!important;
+    margin-left: 10%!important;
     transform: rotate(15deg);
     position: absolute !important;
+    border-radius: 4em !important;
 }
  
 /* FEATURES */
